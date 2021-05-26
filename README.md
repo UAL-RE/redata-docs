@@ -1,2 +1,2 @@
 # redata-docs
-A repo to serve general documentation regarding ReDATA software
+A repo that provides general documentation for software pertaining to ReDATA, the University of Arizona Research Data Repository
