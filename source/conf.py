@@ -61,7 +61,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # -- External links for repeated use:
-ual_odis = 'https://github.com/UAL-ODIS'
+ual_odis = 'https://github.com/UAL-RE'
 repo_link = f'{ual_odis}/redata-docs'
 extlinks = {
     'repo': (f"{repo_link}/%s", None),
