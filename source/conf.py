@@ -24,7 +24,7 @@ copyright = '2021, Arizona Board of Regents'
 author = 'Chun Ly, UA Research Data Repository (ReDATA) Team'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.0.1'
+release = 'v0.0.2'
 
 
 # -- General configuration ---------------------------------------------------
@@ -61,11 +61,11 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # -- External links for repeated use:
-ual_odis = 'https://github.com/UAL-ODIS'
-repo_link = f'{ual_odis}/redata-docs'
+ual_re = 'https://github.com/UAL-RE'
+repo_link = f'{ual_re}/redata-docs'
 extlinks = {
     'repo': (f"{repo_link}/%s", None),
     'repo-main-file': (f"{repo_link}/blob/main/%s", None),
-    'repo-proj': (f"{ual_odis}/%s", None),
+    'repo-proj': (f"{ual_re}/%s", None),
     'pypi': ('https://pypi.org/project/%s', None),
 }
