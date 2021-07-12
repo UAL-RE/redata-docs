@@ -18,36 +18,39 @@ to `ReDATA`_, the University of Arizona Research Data Repository.
 
 The GitHub repository is available :repo:`here <>`.
 
-Our codebases fall in one of three categories:
+Our codebases fall in one of six categories:
  1. Common/general software used throughout ReDATA codebases
- 2. Identity and access management
- 3. Data curation
+ 2. Documentation
+ 3. Identity and access management (IAM)
+ 4. Data curation
+ 5. Data preservation
+ 6. Infrastructure as Code (IaC)
 
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| Software name                                 | Purpose                                                                    |
-+===============================================+============================================================================+
-| :ual-re:`LD-Cool-P <LD-Cool-P>`               | Python command-line API for data curation                                  |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`ReBACH <ReBACH>`                     | Software to support data preservations with ``Dart`` and other tools       |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`ReQUIAM <ReQUIAM>`                   | Python command-line API for IAM                                            |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | Python command-line API and database of groups for IAM                     |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`figshare <figshare>`                 | A forked copy of `cognoma's`_ repository used to gather                    |
-|                                               | public/private data from Figshare API                                      |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`ldcoolp-figshare <ldcoolp-figshare>` | Python backend API for access to the Figshare API for Figshare for         |
-|                                               | Institutions instances                                                     |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`redata-commons <redata-commons>`     | A set of common modules, code, and external libraries used throughout      |
-|                                               | ReDATA codebases.                                                          |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`redata-docs <redata-docs>`           | The repository hosting the current pages you are viewing on Read The Docs  |
-+-----------------------------------------------+----------------------------------------------------------------------------+
-| :ual-re:`redata-iac <redata-iac>`             | Repository containing Infrastructure as Code (IaC) and scripts used on the |
-|                                               | operational side of ReDATA                                                 |
-+-----------------------------------------------+----------------------------------------------------------------------------+
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| Software name                                 | Category      | Purpose                                                                    |
++===============================================+===============+============================================================================+
+| :ual-re:`LD-Cool-P <LD-Cool-P>`               | Curation      | Python command-line API for data curation                                  |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`ReBACH <ReBACH>`                     | Preservation  | Software to support data preservations with ``Dart`` and other tools       |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`ReQUIAM <ReQUIAM>`                   | IAM           | Python command-line API for IAM                                            |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | IAM           | Python command-line API and database of groups for IAM                     |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`figshare <figshare>`                 | Curation,     | A forked copy of `cognoma's`_ repository used to gather                    |
+|                                               | Preservation  | public/private data from Figshare API                                      |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`ldcoolp-figshare <ldcoolp-figshare>` | Curation      | Python backend API for access to the Figshare API for Figshare for         |
+|                                               |               | Institutions instances                                                     |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`redata-commons <redata-commons>`     | General       | A set of common modules, code, and external libraries used throughout      |
+|                                               |               | ReDATA codebases.                                                          |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`redata-docs <redata-docs>`           | Documentation | The repository hosting the current pages you are viewing on Read The Docs  |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+| :ual-re:`redata-iac <redata-iac>`             | IaC           | Repository containing Infrastructure as Code (IaC) and scripts used on the |
+|                                               |               | operational side of ReDATA                                                 |
++-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 
 **More details about each repository:**
 
