@@ -18,6 +18,10 @@ to `ReDATA`_, the University of Arizona Research Data Repository.
 
 The GitHub repository is available :repo:`here <>`.
 
+
+Repository purposes
+-------------------
+
 Our codebases fall in one of six categories:
  1. Common/general software used throughout ReDATA codebases
  2. Documentation
@@ -51,6 +55,9 @@ Our codebases fall in one of six categories:
 | :ual-re:`redata-iac <redata-iac>`             | IaC           | Repository containing Infrastructure as Code (IaC) and scripts used on the |
 |                                               |               | operational side of ReDATA                                                 |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+
+Repository details
+------------------
 
 **More details about each repository:**
 
