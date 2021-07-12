@@ -62,10 +62,14 @@ To checkout an existing branch:
    $ git branch  # To see existing branches
    $ git checkout <name_of_branch>
 
-In terms of branch names, it is strongly recommended to name branches
-so it is clear and concise. Including (1) the GitHub issue number, (2)
-whether this is a feature/enhancement or a bug fix, and (3) a short
-description ensures easier understanding to the software development team.
+In terms of branch names, it is strongly recommended to name branches so it
+is clear and concise. We strongly recommend including:
+
+1. The GitHub issue number
+2. Whether it is a feature/enhancement or a bug fix
+3. A short description
+
+The above ensures an easier understanding to the software development team.
 Examples include:
 
 1. ``feature/235_preserve_prep`` for :ual-re:`LD-Cool-P#235 <LD-Cool-P/issues/235>`
