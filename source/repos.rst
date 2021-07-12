@@ -1,4 +1,4 @@
-Repository purposes
+Repository Purposes
 -------------------
 
 Our codebases fall in one of six categories:
@@ -35,7 +35,7 @@ Our codebases fall in one of six categories:
 |                                               |               | operational side of ReDATA                                                 |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 
-Repository details
+Repository Details
 ------------------
 
 **More details about each repository:**
