@@ -24,7 +24,7 @@ Unless indicated, all software are under an MIT License.
    :caption: Contents:
 
    repos
-
+   project-management
 
 Indices and tables
 ==================

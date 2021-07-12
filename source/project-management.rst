@@ -1,0 +1,83 @@
+Project Management
+~~~~~~~~~~~~~~~~~~
+
+Overview
+--------
+
+For software development purposes, we utilize ``git`` and GitHub extensively
+for version control and project management. This is crucial since we must
+keep track of hundreds of bugs, improvements, and changes for several
+repositories.
+
+We use GitHub tools to track and implement changes to the software. First, we
+use `GitHub issues`_ to identify and track bugs/issues/features, and
+`GitHub pull requests`_ or "PR" so that a developer can suggest a set of
+changes to be merged into the ``master``/``main`` branch.
+
+Branching
+---------
+
+It is strongly recommended to use ``git`` branches for software development.
+This is because, at any point, multiple features/bugs are being addressed,
+and changes pushed directly to the main branch could break the software if
+it is *untested or has not been reviewed*. Branching is a common Developer
++ Operations ("DevOps") best practice. To create a new ``git`` branch, use
+the following ``git`` commands:
+
+::
+
+   $ git pull master
+   $ git checkout -b <name_of_branch>
+
+To checkout an existing branch:
+
+::
+
+   $ git branch  # To see existing branches
+   $ git checkout <name_of_branch>
+
+In terms of branch names, it is strongly recommended to name branches
+so it is clear and concise. Including (1) the GitHub issue number, (2)
+whether this is a feature/enhancement or a bug fix, and (3) a short
+description ensures easier understanding to the software development team.
+Examples include:
+
+1. ``feature/235_preserve_prep`` for :ual-re:`LD-Cool-P#235 <LD-Cool-P/issues/235>`
+2. ``hotfix/229_400_error`` for :ual-re:`LD-Cool-P#229 <LD-Cool-P/issues/229>`
+
+Note: Our branching model initially followed a ``git-flow`` workflow with
+features, hotfixes, and releases; however, we later moved away from that
+model and now use a GitHub flow workflow where all changes are merged into
+the ``master``/``main`` branch after review and testing.
+
+Version tagging
+---------------
+
+For most of our software, we conduct version tagging. Here, each new version
+refers to a change to the codebase that is to be deployed. While some
+open-source software teams may not use version tagging, there are many
+advantages. First, This step ensures that we have continuous delivery of our
+software. Second, for some of our software, we automatically deploy them on
+`PyPI`_, a ``python`` package manager that allows for easy installation of
+the software. Finally, our logging tools records version information for
+each software, so this allows the team to trace an issue back to a specific
+PR. To tag a specific commit:
+
+::
+
+   $ git tag vX.Y.Z -m
+
+A ``vim`` prompt will appear so you can provide a message for the tag. Often
+a short message referring to the GitHub issue number will suffice.
+You will then push the tag via:
+
+::
+
+   $ git push --tags
+
+Merging code
+------------
+
+.. _`GitHub issues`: https://guides.github.com/features/issues/
+.. _`GitHub pull requests`: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+.. _`PyPI`: https://pypi.org
