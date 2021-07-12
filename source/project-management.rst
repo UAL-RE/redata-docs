@@ -125,6 +125,12 @@ Merging code
 TBD on using ``git`` over GitHub merge tool.
 
 
+Status of GitHub repositories
+-----------------------------
+
+Include a table with basic information about each repositories, such as # of issues, PRs, etc.
+
+
 .. _`GitHub issues`: https://guides.github.com/features/issues/
 .. _`GitHub pull requests`: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 .. _`GitHub project boards`: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards
