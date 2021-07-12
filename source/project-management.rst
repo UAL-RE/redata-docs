@@ -125,6 +125,12 @@ Merging code
 TBD on using ``git`` over GitHub merge tool.
 
 
+Milestone tracking
+------------------
+
+More details needed here.
+
+
 Status of GitHub repositories
 -----------------------------
 
