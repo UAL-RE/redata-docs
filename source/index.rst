@@ -23,6 +23,34 @@ Our codebases fall in one of three categories:
  2. Identity and access management
  3. Data curation
 
++-----------------------------------------------+----------------------------------------------------------------------------+
+| Software name                                 | Purpose                                                                    |
++===============================================+============================================================================+
+| :ual-re:`LD-Cool-P <LD-Cool-P>`               | Python command-line API for data curation                                  |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`ReBACH <ReBACH>`                     | Software to support data preservations with ``Dart`` and other tools       |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`ReQUIAM <ReQUIAM>`                   | Python command-line API for IAM                                            |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | Python command-line API and database of groups for IAM                     |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`figshare <figshare>`                 | A forked copy of `cognoma's`_ repository used to gather                    |
+|                                               | public/private data from Figshare API                                      |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`ldcoolp-figshare <ldcoolp-figshare>` | Python backend API for access to the Figshare API for Figshare for         |
+|                                               | Institutions instances                                                     |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`redata-commons <redata-commons>`     | A set of common modules, code, and external libraries used throughout      |
+|                                               | ReDATA codebases.                                                          |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`redata-docs <redata-docs>`           | The repository hosting the current pages you are viewing on Read The Docs  |
++-----------------------------------------------+----------------------------------------------------------------------------+
+| :ual-re:`redata-iac <redata-iac>`             | Repository containing Infrastructure as Code (IaC) and scripts used on the |
+|                                               | operational side of ReDATA                                                 |
++-----------------------------------------------+----------------------------------------------------------------------------+
+
+**More details about each repository:**
+
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
 | Software name                                 | Tag version                | Changelog     | Documentation                 | Main branch | PyPI                                        |
 +===============================================+============================+===============+===============================+=============+=============================================+
@@ -52,6 +80,8 @@ Indices and tables
 * :ref:`search`
 
 .. _`ReDATA`: https://arizona.figshare.com
+
+.. _`cognoma's`: https://github.com/cognoma/figshare
 
 .. |ldcoolp_version| image:: https://img.shields.io/github/v/tag/UAL-RE/LD-Cool-P?label=%20
    :alt: LD-Cool-P GitHub tag version
