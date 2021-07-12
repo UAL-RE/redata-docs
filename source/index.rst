@@ -6,10 +6,6 @@
 Welcome to ReDATA's documentation!
 ==================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 Overview
 ~~~~~~~~
 
@@ -17,6 +13,17 @@ This ReadTheDocs landing page provides general documentation for software pertai
 to `ReDATA`_, the University of Arizona Research Data Repository.
 
 The GitHub repository is available :repo:`here <>`.
+
+All ReDATA-related repositories are under the :ual-re:`GitHub organization (UAL-RE) <>` of
+Research Engagement, University of Arizona Libraries
+
+Unless indicated, all software are under an MIT License.
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents:
+
+   repos
 
 
 Indices and tables
@@ -26,3 +33,4 @@ Indices and tables
 * :ref:`search`
 
 .. _`ReDATA`: https://arizona.figshare.com
+

@@ -24,7 +24,7 @@ copyright = '2021, Arizona Board of Regents'
 author = 'Chun Ly, UA Research Data Repository (ReDATA) Team'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.0.2'
+release = 'v0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -66,6 +66,7 @@ repo_link = f'{ual_re}/redata-docs'
 extlinks = {
     'repo': (f"{repo_link}/%s", None),
     'repo-main-file': (f"{repo_link}/blob/main/%s", None),
-    'repo-proj': (f"{ual_re}/%s", None),
+    'ual-re': (f"{ual_re}/%s", None),
     'pypi': ('https://pypi.org/project/%s', None),
+    'rtd': (f'https://%s.readthedocs.io', None),
 }
