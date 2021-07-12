@@ -12,7 +12,33 @@ repositories.
 We use GitHub tools to track and implement changes to the software. First, we
 use `GitHub issues`_ to identify and track bugs/issues/features, and
 `GitHub pull requests`_ or "PR" so that a developer can suggest a set of
-changes to be merged into the ``master``/``main`` branch.
+changes to be merged into the ``master``/``main`` branch. Within these
+issue and PR tracking, we use labels to indicate what these changes/problems
+pertain to. Each repository has a set of labels. Labels are helpful to
+understand scope and impact and aids in GitHub search engine optimization.
+To understand the scope of any work, we use GitHub milestone tracking.
+Finally, we use `GitHub project boards`_ to illustrate and manage issues and
+PRs. Each repository has its own project board. These are kanban style boards
+with several columns/lists.
+
+
+DevOps Workflow
+---------------
+The general workflow are as follow when starting any improvement:
+
+1. Create a new GitHub issue if one does not exist. Begin tracking it in the
+   project board
+2. Create a new branch locally
+3. Commit changes to branch and push them to the new branch on the remote
+   repository (i.e. GitHub)
+4. Create a PR within the repository to merge the new branch into the
+   ``master``/``main`` branch
+5. A team member reviews the PR (if enough developers are on staff).
+   Self-review are OK if staff is limited.
+6. The changes are merged into the ``master``/``main`` branch and any
+   associated tags are pushed to the remote repository
+7. The software is manually deployed
+
 
 Branching
 ---------
@@ -50,6 +76,7 @@ features, hotfixes, and releases; however, we later moved away from that
 model and now use a GitHub flow workflow where all changes are merged into
 the ``master``/``main`` branch after review and testing.
 
+
 Version tagging
 ---------------
 
@@ -75,9 +102,11 @@ You will then push the tag via:
 
    $ git push --tags
 
+
 Merging code
 ------------
 
 .. _`GitHub issues`: https://guides.github.com/features/issues/
 .. _`GitHub pull requests`: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+.. _`GitHub project boards`: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards
 .. _`PyPI`: https://pypi.org
