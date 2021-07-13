@@ -134,7 +134,7 @@ More details needed here.
 Status of GitHub repositories
 -----------------------------
 
-Include a table with basic information about each repositories, such as # of issues, PRs, etc.
+See :ref:`Repositories status`
 
 
 .. _`GitHub issues`: https://guides.github.com/features/issues/
