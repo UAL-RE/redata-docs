@@ -1,8 +1,8 @@
 Project Management
 ~~~~~~~~~~~~~~~~~~
 
-Overview
---------
+An Overview
+-----------
 
 For software development purposes, we utilize ``git`` and GitHub extensively
 for version control and project management. This is crucial since we must
@@ -22,7 +22,7 @@ PRs. Each repository has its own project board. These are kanban style boards
 with several columns/lists.
 
 
-DevOps Workflow
+DevOps workflow
 ---------------
 The general workflow are as follow when starting any improvement:
 
