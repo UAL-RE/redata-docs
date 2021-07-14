@@ -25,6 +25,7 @@ Unless indicated, all software are under an MIT License.
 
    repos
    project-management
+   iam
 
 Indices and tables
 ==================
