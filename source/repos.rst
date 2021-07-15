@@ -139,97 +139,129 @@ Below summarizes open and closed issues and pull requests.
 .. __: https://github.com/UAL-RE/redata-commons/blob/main/CHANGELOG.md
 
 .. |ldcoolp_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/LD-Cool-P?color=green&label=open
+   :target: https://github.com/UAL-RE/LD-Cool-P/issues?q=is:open
    :alt: LD-Cool-P GitHub open issues
 
 .. |ldcoolp_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/LD-Cool-P?color=red&label=closed
+   :target: https://github.com/UAL-RE/LD-Cool-P/issues?q=is:closed
    :alt: LD-Cool-P Github closed issues
 
 .. |ldcoolp_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/LD-Cool-P?color=green&label=open
+   :target: https://github.com/UAL-RE/LD-Cool-P/pulls?q=is:open
    :alt: LD-Cool-P GitHub open PRs
 
 .. |ldcoolp_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/LD-Cool-P?color=red&label=closed
+   :target: https://github.com/UAL-RE/LD-Cool-P/pulls?q=is:closed
    :alt: LD-Cool-P Github closed PRs
 
 .. |ReBACH_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/ReBACH?color=green&label=open
+   :target: https://github.com/UAL-RE/ReBACH/issues?q=is:open
    :alt: ReBACH GitHub open issues
 
 .. |ReBACH_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/ReBACH?color=red&label=closed
+   :target: https://github.com/UAL-RE/ReBACH/issues?q=is:closed
    :alt: ReBACH Github closed issues
 
 .. |ReBACH_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/ReBACH?color=green&label=open
+   :target: https://github.com/UAL-RE/ReBACH/pulls?q=is:open
    :alt: ReBACH GitHub open PRs
 
 .. |ReBACH_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/ReBACH?color=red&label=closed
+   :target: https://github.com/UAL-RE/ReBACH/pulls?q=is:closed
    :alt: ReBACH Github closed PRs
 
 .. |ReQUIAM_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/ReQUIAM?color=green&label=open
+   :target: https://github.com/UAL-RE/ReQUIAM/issues?q=is:open
    :alt: ReQUIAM GitHub open issues
 
 .. |ReQUIAM_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/ReQUIAM?color=red&label=closed
+   :target: https://github.com/UAL-RE/ReQUIAM/issues?q=is:closed
    :alt: ReQUIAM Github closed issues
 
 .. |ReQUIAM_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/ReQUIAM?color=green&label=open
+   :target: https://github.com/UAL-RE/ReQUIAM/pulls?q=is:open
    :alt: ReQUIAM GitHub open PRs
 
 .. |ReQUIAM_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/ReQUIAM?color=red&label=closed
+   :target: https://github.com/UAL-RE/ReQUIAM/pulls?q=is:closed
    :alt: ReQUIAM Github closed PRs
 
 .. |ReQUIAM_csv_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/ReQUIAM_csv?color=green&label=open
+   :target: https://github.com/UAL-RE/ReQUIAM_csv/issues?q=is:open
    :alt: ReQUIAM_csv GitHub open issues
 
 .. |ReQUIAM_csv_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/ReQUIAM_csv?color=red&label=closed
+   :target: https://github.com/UAL-RE/ReQUIAM_csv/issues?q=is:closed
    :alt: ReQUIAM_csv Github closed issues
 
 .. |ReQUIAM_csv_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/ReQUIAM_csv?color=green&label=open
+   :target: https://github.com/UAL-RE/ReQUIAM_csv/pulls?q=is:open
    :alt: ReQUIAM_csv GitHub open PRs
 
 .. |ReQUIAM_csv_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/ReQUIAM_csv?color=red&label=closed
+   :target: https://github.com/UAL-RE/ReQUIAM_csv/pulls?q=is:closed
    :alt: ReQUIAM_csv Github closed PRs
 
 .. |ldcoolp-figshare_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/ldcoolp-figshare?color=green&label=open
+   :target: https://github.com/UAL-RE/ldcoolp-figshare/issues?q=is:open
    :alt: ldcoolp-figshare GitHub open issues
 
 .. |ldcoolp-figshare_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/ldcoolp-figshare?color=red&label=closed
+   :target: https://github.com/UAL-RE/ldcoolp-figshare/issues?q=is:closed
    :alt: ldcoolp-figshare GitHub closed issues
 
 .. |ldcoolp-figshare_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/ldcoolp-figshare?color=green&label=open
+   :target: https://github.com/UAL-RE/ldcoolp-figshare/pulls?q=is:open
    :alt: ldcoolp-figshare GitHub open PRs
 
 .. |ldcoolp-figshare_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/ldcoolp-figshare?color=red&label=closed
+   :target: https://github.com/UAL-RE/ldcoolp-figshare/pulls?q=is:closed
    :alt: ldcoolp-figshare GitHub closed PRs
 
 .. |redata-commons_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/redata-commons?color=green&label=open
+   :target: https://github.com/UAL-RE/redata-commons/issues?q=is:open
    :alt: redata-commons GitHub open issues
 
 .. |redata-commons_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/redata-commons?color=red&label=closed
+   :target: https://github.com/UAL-RE/redata-commons/issues?q=is:closed
    :alt: redata-commons GitHub closed issues
 
 .. |redata-commons_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/redata-commons?color=green&label=open
+   :target: https://github.com/UAL-RE/redata-commons/pulls?q=is:open
    :alt: redata-commons GitHub open PRs
 
 .. |redata-commons_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/redata-commons?color=red&label=closed
+   :target: https://github.com/UAL-RE/redata-commons/pulls?q=is:closed
    :alt: redata-commons GitHub closed PRs
 
 .. |redata-docs_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/redata-docs?color=green&label=open
+   :target: https://github.com/UAL-RE/redata-docs/issues?q=is:open
    :alt: redata-docs GitHub open issues
 
 .. |redata-docs_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/redata-docs?color=red&label=closed
+   :target: https://github.com/UAL-RE/redata-docs/issues?q=is:closed
    :alt: redata-docs GitHub closed issues
 
 .. |redata-docs_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/redata-docs?color=green&label=open
+   :target: https://github.com/UAL-RE/redata-docs/pulls?q=is:open
    :alt: redata-docs GitHub open PRs
 
 .. |redata-docs_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/redata-docs?color=red&label=closed
+   :target: https://github.com/UAL-RE/redata-docs/pulls?q=is:closed
    :alt: redata-docs GitHub closed PRs
 
 .. |redata-iac_iss| image:: https://img.shields.io/github/issues-raw/UAL-RE/redata-iac?color=green&label=open
+   :target: https://github.com/UAL-RE/redata-iac/issues?q=is:open
    :alt: redata-iac GitHub open issues
 
 .. |redata-iac_iss2| image:: https://img.shields.io/github/issues-closed-raw/UAL-RE/redata-iac?color=red&label=closed
+   :target: https://github.com/UAL-RE/redata-iac/issues?q=is:closed
    :alt: redata-iac GitHub closed issues
 
 .. |redata-iac_pr| image:: https://img.shields.io/github/issues-pr-raw/UAL-RE/redata-iac?color=green&label=open
+   :target: https://github.com/UAL-RE/redata-iac/pulls?q=is:open
    :alt: redata-iac GitHub open PRs
 
 .. |redata-iac_pr2| image:: https://img.shields.io/github/issues-pr-closed-raw/UAL-RE/redata-iac?color=red&label=closed
+   :target: https://github.com/UAL-RE/redata-iac/pulls?q=is:closed
    :alt: redata-iac GitHub closed PRs
