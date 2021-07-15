@@ -87,7 +87,52 @@ The working mapping is provided as a CSV file to be consumed by
 2. `Rendered version`_
 
 
+Grouper settings
+~~~~~~~~~~~~~~~~
+
+To control IAM, we update Grouper group memberships, which are metadata that
+is passed into EDS and ultimately Shibboleth and consumed by our Figshare for
+Institution instance for account creation (for first login) and update when
+users re-login. This metadata record is called ``ismemberof``.
+
+The three ``ismemberof`` settings that ensures proper IAM are:
+
++----------------+-------+------------------------------------------------------------------+
+| ``ismemberof`` | Type  | Purpose                                                          |
++================+=======+==================================================================+
+| active         | Group | This enable login to ReDATA. Non-membership means the individual |
+|                |       | is no longer an active member by Libraries privileges            |
++----------------+-------+------------------------------------------------------------------+
+| portal         | Stem  | Folder containing various research themes Grouper groups         |
++----------------+-------+------------------------------------------------------------------+
+| quota          | Stem  | Folder containing Grouper groups of quotas in bytes              |
++----------------+-------+------------------------------------------------------------------+
+
+The Grouper stem prefix for the above is ``arizona.edu:Dept:LBRY:figshare``.
+
+``ReQUIAM`` maintains direct membership for ``portal`` and ``quota`` groups.
+For the ``active`` group, this is done using indirect membership from
+other Grouper groups set by the University Libraries patron software,
+`patron-groups`_.
+
+Our Figshare instance maps the ``portal`` and ``quota`` settings accordingly
+such that:
+
+ 1. A quota is set to ensure that a user has enough space for small deposits,
+    which is most often the case. The user can request more space, which
+    a ReDATA administrator would need to approve. The latter allows for
+    the ReDATA team to understand the user's needs and to identify cases where
+    there are large deposits requiring more assistance.
+ 2. A researcher's data deposits are placed in a proper Figshare group/portal.
+
+If a user does not have a ``portal`` set then their data publication will not
+appear in any group/portal, but part of the University wide group. If a quota
+is not set (for undergraduates logging in for the first time), then the quota
+is set to zero.
+
 .. _NetID: https://netid.arizona.edu
+
+.. _patron-groups: https://github.com/ualibraries/patron-groups
 
 .. _Google Docs: https://docs.google.com/spreadsheets/d/1f8tNxj96g_4NW6LWAIx8s3AxRoBbwRvFIxUXMAYyVlU/edit#gid=1301862342
 
