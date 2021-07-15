@@ -28,16 +28,23 @@ Services
 ~~~~~~~~
 
 First, we utilize three services provided by University Information Technology
-Services (UITS): EDS, Shibboleth, and Grouper. Users who login to ReDATA
-uses their NetID credentials to login (WebAuth). To control IAM, we update
-Grouper group memberships, which are metadata that is passed into EDS and
-ultimately Shibboleth and consumed by our Figshare for Institution instance
-for account creation (for first login) and update when users (re-login).
+Services (UITS):
+
+ 1. EDS
+ 2. Shibboleth
+ 3. Grouper
+
+Users who login to ReDATA uses their `NetID`_ credentials to login (WebAuth).
+To control IAM, we update Grouper group memberships, which are metadata that
+is passed into EDS and ultimately Shibboleth and consumed by our Figshare for
+Institution instance for account creation (for first login) and update when
+users (re-login). This metadata record is called ``ismemberof``.
 
 
 Software
 ~~~~~~~~
-The two codebases that the ReDATA team build and maintains, are
+
+The two codebases that the ReDATA team build and maintains are
 :ual-re:`ReQUIAM <ReQUIAM>` and :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`. The
 former is the primary software that manages all ReDATA IAM with a
 daily "cronjob" that sets research theme association ("portals") and quotas
@@ -67,6 +74,7 @@ The working mapping is provided as a CSV file to be consumed by
 2. `Rendered version`_
 
 
+.. _NetID: https://netid.arizona.edu
 
 .. _Google Docs: https://docs.google.com/spreadsheets/d/1f8tNxj96g_4NW6LWAIx8s3AxRoBbwRvFIxUXMAYyVlU/edit#gid=1301862342
 
