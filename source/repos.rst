@@ -98,30 +98,39 @@ Below summarizes open and closed issues and pull requests.
 .. _`cognoma's`: https://github.com/cognoma/figshare
 
 .. |ldcoolp_version| image:: https://img.shields.io/github/v/tag/UAL-RE/LD-Cool-P?label=%20
+   :target: https://github.com/UAL-RE/LD-Cool-P/releases/latest
    :alt: LD-Cool-P GitHub tag version
 
 .. |ReBACH_version| image:: https://img.shields.io/github/v/tag/UAL-RE/ReBACH?label=%20
+   :target: https://github.com/UAL-RE/ReBACH/releases/latest
    :alt: ReBACH GitHub tag version
 
 .. |ReQUIAM_version| image:: https://img.shields.io/github/v/tag/UAL-RE/ReQUIAM?label=%20
+   :target: https://github.com/UAL-RE/ReQUIAM/releases/latest
    :alt: ReQUIAM GitHub tag version
 
 .. |ReQUIAM_csv_version| image:: https://img.shields.io/github/v/tag/UAL-RE/ReQUIAM_csv?label=%20
+   :target: https://github.com/UAL-RE/ReQUIAM_csv/releases/latest
    :alt: ReQUIAM_csv GitHub tag version
 
 .. |ldcoolp-figshare_version| image:: https://img.shields.io/github/v/tag/UAL-RE/ldcoolp-figshare?label=%20
+   :target: https://github.com/UAL-RE/ldcoolp-figshare/releases/latest
    :alt: ldcoolp-figshare GitHub tag version
 
 .. |figshare_version| image:: https://img.shields.io/github/v/tag/UAL-RE/figshare?label=%20
+   :target: https://github.com/UAL-RE/figshare/releases/latest
    :alt: figshare GitHub tag version
 
 .. |redata-commons_version| image:: https://img.shields.io/github/v/tag/UAL-RE/redata-commons?label=%20
+   :target: https://github.com/UAL-RE/redata-commons/releases/latest
    :alt: redata-commons GitHub tag version
 
 .. |redata-docs_version| image:: https://img.shields.io/github/v/tag/UAL-RE/redata-docs?label=%20
+   :target: https://github.com/UAL-RE/redata-docs/releases/latest
    :alt: redata-docs GitHub tag version
 
 .. |redata-iac_version| image:: https://img.shields.io/github/v/tag/UAL-RE/redata-iac?label=%20
+   :target: https://github.com/UAL-RE/redata-iac/releases/latest
    :alt: redata-iac GitHub tag version
 
 .. __: https://github.com/UAL-RE/LD-Cool-P/blob/master/CHANGELOG.md
