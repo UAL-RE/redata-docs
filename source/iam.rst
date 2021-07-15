@@ -4,9 +4,9 @@ Identity and Access Management
 IAM Overview
 ~~~~~~~~~~~~
 
-Our Figshare for Institution has a couple of features to maintain identity
-and access management (IAM) settings and to assist in data repository
-administration.
+Our Figshare for Institution instance, has a couple of features to maintain
+identity and access management (IAM) settings and to assist in data
+repository administration.
 
 First, we have the ability to set a quota of available space for each user.
 Our default quotas, applicable to most ReDATA users, are:
