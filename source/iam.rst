@@ -1,11 +1,37 @@
 Identity and Access Management
 ------------------------------
 
+ReDATA Overview
+~~~~~~~~~~~~~~~
+
+Our Figshare for Institution has a couple of features to maintain identity
+and access management (IAM) settings and to assist in data repository
+administration.
+
+First, we have the ability to set a quota of available space for each user.
+Our default quotas, applicable to most ReDATA users, are:
+
++-------------------+--------------------------------------------+
+| Classification    | Quota                                      |
++===================+============================================+
+| Undergraduates    | 0 (initially), 100MB after they contact us |
++-------------------+--------------------------------------------+
+| Graduates         | 0.5 GB                                     |
++-------------------+--------------------------------------------+
+| Faculty/Staff/DCC | 2 GB                                       |
++-------------------+--------------------------------------------+
+
+Second, we have the ability to assign each users to groups/portals on
+Figshare. This allows for the easily exploration of data through these
+portals. For our deployment we chose to do it by following common
+research themes for our University. To identify researcher's discipline,
+we utilize their primary affiliation at the University.
+
+
 Software/Services Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are a number of software and services that we use for identity and
-access management (IAM). They are:
+There are a number of software and services that we use for IAM. They are:
 
 +-------------------------------------+---------------+--------------------------------------------------------+
 | Software/Services                   | Maintainer(s) | Purpose                                                |
@@ -35,10 +61,6 @@ Services (UITS):
  3. Grouper
 
 Users who login to ReDATA uses their `NetID`_ credentials to login (WebAuth).
-To control IAM, we update Grouper group memberships, which are metadata that
-is passed into EDS and ultimately Shibboleth and consumed by our Figshare for
-Institution instance for account creation (for first login) and update when
-users (re-login). This metadata record is called ``ismemberof``.
 
 
 Software
@@ -51,17 +73,8 @@ daily "cronjob" that sets research theme association ("portals") and quotas
 through the Grouper API. That information is then propagated into EDS
 and Shibboleth with users logging in. Also, ``ReQUIAM`` has a
 command-line API to enable other manual IAM changes for the ReDATA team,
-such as setting a higher quota from default quota settings, which are:
-
-+-------------------+--------------------------------------------+
-| Classification    | Quota                                      |
-+===================+============================================+
-| Undergraduates    | 0 (initially), 100MB after they contact us |
-+-------------------+--------------------------------------------+
-| Graduates         | 0.5 GB                                     |
-+-------------------+--------------------------------------------+
-| Faculty/Staff/DCC | 2 GB                                       |
-+-------------------+--------------------------------------------+
+such as setting a higher quota from default quota settings
+(See :ref:`ReDATA Overview`)
 
 The ``ReQUIAM_csv`` software contains the mapping between the groups on
 ReDATA's Figshare for Institution instance and UArizona organizational
@@ -78,6 +91,6 @@ The working mapping is provided as a CSV file to be consumed by
 
 .. _Google Docs: https://docs.google.com/spreadsheets/d/1f8tNxj96g_4NW6LWAIx8s3AxRoBbwRvFIxUXMAYyVlU/edit#gid=1301862342
 
-.. _raw version: https://raw.githubusercontent.com/UAL-RE/ReQUIAM_csv/master/requiam_csv/data/research_themes.csv
+.. _Raw version: https://raw.githubusercontent.com/UAL-RE/ReQUIAM_csv/master/requiam_csv/data/research_themes.csv
 
-.. _rendered version: https://github.com/UAL-RE/ReQUIAM_csv/blob/master/requiam_csv/data/research_themes.csv
+.. _Rendered version: https://github.com/UAL-RE/ReQUIAM_csv/blob/master/requiam_csv/data/research_themes.csv
