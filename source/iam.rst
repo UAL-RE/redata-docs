@@ -1,8 +1,8 @@
 Identity and Access Management
 ------------------------------
 
-ReDATA Overview
-~~~~~~~~~~~~~~~
+IAM Overview
+~~~~~~~~~~~~
 
 Our Figshare for Institution has a couple of features to maintain identity
 and access management (IAM) settings and to assist in data repository
@@ -21,11 +21,11 @@ Our default quotas, applicable to most ReDATA users, are:
 | Faculty/Staff/DCC | 2 GB                                       |
 +-------------------+--------------------------------------------+
 
-Second, we have the ability to assign each users to groups/portals on
-Figshare. This allows for the easily exploration of data through these
-portals. For our deployment we chose to do it by following common
-research themes for our University. To identify researcher's discipline,
-we utilize their primary affiliation at the University.
+Second, we have the ability to assign each users to groups on Figshare
+(a.k.a. "portals"). This allows for the easily exploration of data through
+these portals. For our deployment we chose to do it by following common
+research themes for our University. To identify researcher's discipline, we
+utilize their primary affiliation at the University.
 
 
 Software/Services Overview
@@ -53,20 +53,22 @@ There are a number of software and services that we use for IAM. They are:
 Services
 ~~~~~~~~
 
-First, we utilize three services provided by University Information Technology
-Services (UITS):
+First, we utilize three services provided and administered by University
+Information Technology Services (UITS):
 
  1. EDS
  2. Shibboleth
  3. Grouper
 
 Users who login to ReDATA uses their `NetID`_ credentials to login (WebAuth).
+A user who is no longer part of the University will not have `NetID`_ and
+thus will not be able to log in.
 
 
 Software
 ~~~~~~~~
 
-The two codebases that the ReDATA team build and maintains are
+The two codebases that the ReDATA team develops and maintains are
 :ual-re:`ReQUIAM <ReQUIAM>` and :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`. The
 former is the primary software that manages all ReDATA IAM with a
 daily "cronjob" that sets research theme association ("portals") and quotas
@@ -74,14 +76,14 @@ through the Grouper API. That information is then propagated into EDS
 and Shibboleth with users logging in. Also, ``ReQUIAM`` has a
 command-line API to enable other manual IAM changes for the ReDATA team,
 such as setting a higher quota from default quota settings
-(See :ref:`ReDATA Overview`)
+(See :ref:`IAM Overview`)
 
 The ``ReQUIAM_csv`` software contains the mapping between the groups on
 ReDATA's Figshare for Institution instance and UArizona organizational
 codes. The spreadsheet is available through `Google Docs`_.
 
-The working mapping is provided as a CSV file to be consumed by
-``ReQUIAM``, which are publicly available on GitHub at:
+The Grouper-to-Figshare-group mapping is provided as a CSV file to be
+consumed by ``ReQUIAM``, which are publicly available on GitHub at:
 
 1. `Raw version`_
 2. `Rendered version`_
