@@ -122,7 +122,7 @@ You will then push the tag via:
 Merging code
 ------------
 
-TBD on using ``git`` over GitHub merge tool.
+Direct merges to main/master branches are to be avoided. When working collaboratively, all changes must be made to a branch and a pull request opened. The pull request must be reviewed and approved by another team member before being merged to the main/master branch.
 
 
 Milestone tracking
