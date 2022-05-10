@@ -141,8 +141,6 @@ Below summarizes open and closed issues and pull requests.
 
 .. __: https://github.com/UAL-RE/ReQUIAM/blob/master/CHANGELOG.md
 
-.. __: https://github.com/UAL-RE/ReQUIAM/blob/master/README.md
-
 .. __: https://github.com/UAL-RE/ldcoolp-figshare/blob/main/CHANGELOG.md
 
 .. __: https://github.com/UAL-RE/redata-commons/blob/main/CHANGELOG.md
