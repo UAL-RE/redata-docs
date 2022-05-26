@@ -100,7 +100,7 @@ These files shall be checked and updated if existing:
 
 1. Update __init__.py __version__ number or related configuration
 2. Update setup.py variables such as version.
-3. Update README.md
+3. Review README.md and update related sentences.
 4. Update CHANGELOG.md by adding changelog message
 
 In all of our software, we conduct version tagging.
