@@ -82,7 +82,7 @@ model and now use a GitHub flow workflow where all changes are merged into
 the ``main``/``master`` branch after review and testing.
 
 Pushing to a remote branch
-------------------------
+--------------------------
 After updating files, we can push the changes to remote branch. It is important to push to a branch (not ``main``) so that a team member can review the changes over a pull request.
 use the following ``git`` commands:
 
@@ -98,10 +98,10 @@ Versioning and tagging
 Before creating a new tag, we need to make sure all related files updated to reflect the new tag.
 These files shall be checked and updated if existing:
 
-1. Update __init__.py
-2. Update setup.py
+1. Update __init__.py __version__ number or related configuration
+2. Update setup.py variables such as version.
 3. Update README.md
-4. Update changelog.md
+4. Update CHANGELOG.md by adding changelog message
 
 In all of our software, we conduct version tagging.
 Here, each new version refers to a change to the codebase that is to
