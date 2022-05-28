@@ -93,6 +93,10 @@ use the following ``git`` commands:
    $ git branch                    # list all the branches and * is the current branch
    $ git push origin <branchname>  # push to a remote branch
 
+In accordance with git's best practices, the commit message should be short but descriptive. 
+Avoid general messages like "updated file.txt" when possible. 
+
+
 Versioning and tagging
 ----------------------
 Before creating a new tag, we need to make sure all related files updated to reflect the new tag.
