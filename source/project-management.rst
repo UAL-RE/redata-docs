@@ -110,7 +110,7 @@ These files shall be checked and updated if existing:
 In all of our software, we conduct version tagging.
 Here, each new version refers to a change to the codebase that is to
 be deployed. We loosely follow `Semantic versioning`_ (SemVer), which
-denotes changes as MAJOR, MINOR, and PATCH. There are two differences
+denotes changes as MAJOR (X), MINOR (Y), and PATCH (Z). There are two differences
 with our method of versioning against SemVer:
 
 1. We use the patch denotation for both hotfixes and small enhancements
@@ -131,15 +131,22 @@ back to a specific PR. To tag a specific commit:
 
 ::
 
-   $ git tag vX.Y.Z -m
+   $ git tag vX.Y.Z -m "message" 
+   $ git tag
 
-A ``vim`` prompt will appear so you can provide a message for the tag. Often
-a short message referring to the GitHub issue number will suffice.
-You will then push the tag via:
+Note: X is the MAJOR version, Y is the MINOR version, Z is the PATCH version
+
+
+You will then push one tag via:
 
 ::
 
-   $ git push --tags
+   $ git push origin <tag_name>  
+
+
+Note: It is NOT recommended to use "$git push --tags" because the command push all tags. 
+It is common for developers to have old or "bad" tags in their local repositories. So it's advised
+to only explicitly push a tag using the above command.
 
 
 Merging code
