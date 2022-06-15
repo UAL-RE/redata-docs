@@ -137,8 +137,6 @@ back to a specific PR. To tag a specific commit:
 Note: X is the MAJOR version, Y is the MINOR version, Z is the PATCH version
 
 
-A ``vim`` prompt will appear so you can provide a message for the tag. Often
-a short message referring to the GitHub issue number will suffice.
 You will then push one tag via:
 
 ::
